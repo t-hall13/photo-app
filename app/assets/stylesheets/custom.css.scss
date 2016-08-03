@@ -100,3 +100,36 @@ color: #fff;
 
 }
 
+.jumbotron {
+    height: 300px;
+    
+    background-image: asset-url('old-truck-resized.jpg');
+    // background-size: cover;
+    background-position: center;
+    color: #fff;
+    
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15;
+    text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, -1px #555;
+}
+
+.jumbotron-text {
+  margin-top: 90px; 
+  margin-bottom: 10px;
+  font-family: 'Helvetica Neue' !important;  
+  text-align: bottom;
+  line-height: 80%;
+}
+
+.plans {
+    text-align: center;
+    li{
+        text-align: left;
+    }
+    li .price {
+    text-align: right;        
+    }
+}
+
